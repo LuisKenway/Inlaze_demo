@@ -34,7 +34,7 @@ Seleccionas el navegador Google Chrome y le das clic en 'Star E2E Testing in Chr
 
 Haz clic en el botón "Specs"
 
-Seleccionas el script 'login.cy.js' o 'sign_up.cy.js
+Seleccionas el script `login.cy.js` o `sign_up.cy.js`
 
 Otra opción es agregar un comando específico para ejecutar las pruebas, por ejemplo:
 Para ejecutar las pruebas con Cypress, ejecuta el siguiente comando en la terminal:
