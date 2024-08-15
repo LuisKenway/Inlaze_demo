@@ -42,7 +42,7 @@ describe('Registro de Usuario', () => {
     cy.get('#confirm-password').type('Contraseña1!');
     // Verificar que el botón esté deshabilitado
     cy.get('[type="submit"]').then(($button) => {
-      assert($button.is(':disabled'), 'El botón de "Sign up" está activado y debería estar desactivado debido a que el formato del campo "Email" es incorreto');
+      assert($button.is(':disabled'), 'El botón de "Sign up" está activado y debería estar desactivado debido a que el formato del campo "Email" es incorrecto');
     });
   });
 
