@@ -103,7 +103,7 @@ describe('Registro de Usuario', () => {
     cy.get('#password').type('Contraseña1!');
     cy.get('#confirm-password').type('Contraseña20');
     cy.get('.label-text-alt').then(($label) => {
-      assert.strictEqual($label.text(), ' Passwords do not match ', 'El sistema informa que las contraseñas coinciden');
+      assert.strictEqual($label.text(), ' Passwords do not match ', 'El sistema informa que las contraseñas NO coinciden');
 
   });
   
